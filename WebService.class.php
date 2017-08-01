@@ -106,7 +106,7 @@
 					throw new Exception("Erreur : les paramètres passés sont incorrects.");
 				}
 
-				// Prepare the query and execute it. Here we are using our own db class (simplification of PDO object).
+				// Prepare the query and execute it. Here we are using our own db class (simplification of PDO object, you can adapt this part with your own database class).
 				$bdd = new Bdd();
 				$bdd = $bdd->bddConnection();
 				
